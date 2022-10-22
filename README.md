@@ -7,9 +7,13 @@ git clone git@github.com:Mathis-COCO/WIK-DPS-TP01.git
 ```
 
 Next, setup your localhost port by changing it in the'.env' file.
+You can delete this file and the server will run by default on port 3000
 
 After that, you can start your server by typing this command from the root of your project:
 
+```
+npx tsc
+```
 ```
 npm run start
 ```
